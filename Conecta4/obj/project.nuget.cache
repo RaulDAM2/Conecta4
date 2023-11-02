@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QTZOEa837VMKH/QvVLg2n2j5JwiUBSKcBte/xf7qQohpUPnabXTnXoNd5J2/B6L9oW4mlKGn5ruCS2MdDv9mJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raul\\Desktop\\DAM 2\\M07 - Desenvolupament d'interfícies\\UF1 - Disseny i implementació de interfícies\\Conecta4\\Conecta4\\Conecta4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.23\\microsoft.netcore.app.runtime.win-x64.6.0.23.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.23\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.23.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.23\\microsoft.aspnetcore.app.runtime.win-x64.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

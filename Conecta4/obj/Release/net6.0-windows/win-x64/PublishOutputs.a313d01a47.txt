@@ -1,0 +1,7 @@
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\Conecta4.pdb
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\D3DCompiler_47_cor3.dll
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\PenImc_cor3.dll
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\PresentationNative_cor3.dll
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\vcruntime140_cor3.dll
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\wpfgfx_cor3.dll
+C:\Users\Raul\Desktop\DAM 2\M07 - Desenvolupament d'interfícies\UF1 - Disseny i implementació de interfícies\Conecta4\Conecta4\bin\Release\net6.0-windows\win-x64\publish\Conecta4.exe

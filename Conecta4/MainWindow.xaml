@@ -1,0 +1,94 @@
+﻿<Window x:Class="Conecta4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conecta4"
+        mc:Ignorable="d"
+        Title="Conecta 4" Height="480" Width="560">
+    <Grid x:Name="conecta4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Tablero de juego -->
+        <Grid Grid.Row="0" Name="gameGrid" Background="Blue">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Celdas del tablero (botones) -->
+            <!-- Primera fila -->
+            <Button Grid.Row="0" Grid.Column="0" Name="btn00" Click="ColumnButton_Click"/>
+            <Button Grid.Row="0" Grid.Column="1" Name="btn01" Click="ColumnButton_Click"/>
+            <Button Grid.Row="0" Grid.Column="2" Name="btn02" Click="ColumnButton_Click"/>
+            <Button Grid.Row="0" Grid.Column="3" Name="btn03" Click="ColumnButton_Click"/>
+            <Button Grid.Row="0" Grid.Column="4" Name="btn04" Click="ColumnButton_Click"/>
+            <Button Grid.Row="0" Grid.Column="5" Name="btn05" Click="ColumnButton_Click"/>
+            <Button Grid.Row="0" Grid.Column="6" Name="btn06" Click="ColumnButton_Click"/>
+
+            <!-- Segunda fila -->
+            <Button Grid.Row="1" Grid.Column="0" Name="btn10" Click="ColumnButton_Click"/>
+            <Button Grid.Row="1" Grid.Column="1" Name="btn11" Click="ColumnButton_Click"/>
+            <Button Grid.Row="1" Grid.Column="2" Name="btn12" Click="ColumnButton_Click"/>
+            <Button Grid.Row="1" Grid.Column="3" Name="btn13" Click="ColumnButton_Click"/>
+            <Button Grid.Row="1" Grid.Column="4" Name="btn14" Click="ColumnButton_Click"/>
+            <Button Grid.Row="1" Grid.Column="5" Name="btn15" Click="ColumnButton_Click"/>
+            <Button Grid.Row="1" Grid.Column="6" Name="btn16" Click="ColumnButton_Click"/>
+
+            <!-- Tercera fila -->
+            <Button Grid.Row="2" Grid.Column="0" Name="btn17" Click="ColumnButton_Click"/>
+            <Button Grid.Row="2" Grid.Column="1" Name="btn18" Click="ColumnButton_Click"/>
+            <Button Grid.Row="2" Grid.Column="2" Name="btn19" Click="ColumnButton_Click"/>
+            <Button Grid.Row="2" Grid.Column="3" Name="btn20" Click="ColumnButton_Click"/>
+            <Button Grid.Row="2" Grid.Column="4" Name="btn21" Click="ColumnButton_Click"/>
+            <Button Grid.Row="2" Grid.Column="5" Name="btn22" Click="ColumnButton_Click"/>
+            <Button Grid.Row="2" Grid.Column="6" Name="btn23" Click="ColumnButton_Click"/>
+
+            <!-- Cuarta fila -->
+            <Button Grid.Row="3" Grid.Column="0" Name="btn24" Click="ColumnButton_Click"/>
+            <Button Grid.Row="3" Grid.Column="1" Name="btn25" Click="ColumnButton_Click"/>
+            <Button Grid.Row="3" Grid.Column="2" Name="btn26" Click="ColumnButton_Click"/>
+            <Button Grid.Row="3" Grid.Column="3" Name="btn27" Click="ColumnButton_Click"/>
+            <Button Grid.Row="3" Grid.Column="4" Name="btn28" Click="ColumnButton_Click"/>
+            <Button Grid.Row="3" Grid.Column="5" Name="btn29" Click="ColumnButton_Click"/>
+            <Button Grid.Row="3" Grid.Column="6" Name="btn30" Click="ColumnButton_Click"/>
+
+            <!-- Quinta fila -->
+            <Button Grid.Row="4" Grid.Column="0" Name="btn31" Click="ColumnButton_Click"/>
+            <Button Grid.Row="4" Grid.Column="1" Name="btn32" Click="ColumnButton_Click"/>
+            <Button Grid.Row="4" Grid.Column="2" Name="btn33" Click="ColumnButton_Click"/>
+            <Button Grid.Row="4" Grid.Column="3" Name="btn34" Click="ColumnButton_Click"/>
+            <Button Grid.Row="4" Grid.Column="4" Name="btn35" Click="ColumnButton_Click"/>
+            <Button Grid.Row="4" Grid.Column="5" Name="btn36" Click="ColumnButton_Click"/>
+            <Button Grid.Row="4" Grid.Column="6" Name="btn37" Click="ColumnButton_Click"/>
+
+            <!-- Sexta fila -->
+            <Button Grid.Row="5" Grid.Column="0" Name="btn38" Click="ColumnButton_Click"/>
+            <Button Grid.Row="5" Grid.Column="1" Name="btn39" Click="ColumnButton_Click"/>
+            <Button Grid.Row="5" Grid.Column="2" Name="btn40" Click="ColumnButton_Click"/>
+            <Button Grid.Row="5" Grid.Column="3" Name="btn41" Click="ColumnButton_Click"/>
+            <Button Grid.Row="5" Grid.Column="4" Name="btn42" Click="ColumnButton_Click"/>
+            <Button Grid.Row="5" Grid.Column="5" Name="btn43" Click="ColumnButton_Click"/>
+            <Button Grid.Row="5" Grid.Column="6" Name="btn44" Click="ColumnButton_Click"/>
+        </Grid>
+
+        <!-- Botón de reinicio -->
+        <Button Content="Reiniciar" Grid.Row="1" Click="RestartButton_Click" />
+    </Grid>
+</Window>
